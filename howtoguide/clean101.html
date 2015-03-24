@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Clean Module Startup </title>
+    <link rel="shortcut icon" href="../images/logo/favicon32x32_green.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/howto_style.css" type="text/css">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700,900,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../fonts/icomoon/style.css" type="text/css">
+
+</head>
+
+
+<body>
+
+<div id="container">
+    <div id="header">
+        <a href="http://terrace.com">
+            <img id="logo" src="../images/logo/logo_orange80x50.svg" alt="terrace logo">
+            <img src="../images/logo/terraceLogo.png" alt="logo"></a>
+    </div>
+
+
+    <div class="banner-still">
+        <img src="../images/vectorBanner.png" alt="vector">
+
+        <h1 class="main-title">Clean Module Startup...</h1>
+
+    </div>
+
+    <div class="features">
+        <ul class="wrap">
+
+            <li class="browser">
+                <h1><span class="icon-explore" title="browser"></span></h1>
+                <b>Browser Friendly</b>
+
+                <p> Compatible with all browsers.</p>
+            </li>
+
+            <li class="waterfall">
+                <h1><span class="icon-layers" title="browser"></span></h1>
+                <b>Waterfall Layout</b>
+
+                <p>You can add as many projects as you'd like, without affecting the layout.</p>
+            </li>
+
+            <li class="guide">
+                <h1><span class="icon-question-answer" title="browser"></span></h1>
+                <b>Guidance </b>
+
+                <p>Clean module seperates code into sections because we take you step by step. </p>
+            </li>
+
+            <li class="responsive">
+                <h1><span class="icon-devices" title="browser"></span></h1>
+                <b>Fluid - Responsive</b>
+
+                <p>We won't let your work get compromised by screen dimensions.</p>
+            </li>
+        </ul>
+
+    </div>
+    <!-- FEATURES ends -->
+
+    <div id="howto" class="how">
+        <h2>How to use Framework:</h2>
+
+        <ol>
+
+            <li><!-- STEP ONE -->
+                <div id="steps-1">
+                    <h3>Prepare your Assests </h3>
+
+                    <p> Before we begin with code, its important that you have your images and descriptions ready to go.
+                        You will be needing thumbnail images for each project, as well as large versions of the same
+                        image. Create your banner (1600x550px)and pick your icons, and think about your main
+                        colors. </p>
+                </div>
+                <pre>&lt;a href="#"> &lt;span class="icon-home" title="home">&lt;/span&gt;&lt;/a><br><br>&lt;li style= "background-image: url(images/slider/hero_1.jpg)"&gt;</pre>
+            </li>
+
+            <li><!-- STEP TWO -->
+                <div id="steps-2">
+                    <h3>HEAD: html from the top </h3>
+
+                    <p> Our comments will help you understand what to do in each section, so look for the grayed-out
+                        text. In the head section. Change the title of your website. Make sure that all of your scripts
+                        are linked to the correct folders after you download Clean Template. In the head tag you will
+                        need to re-link CSS files and Fonts. You may also add a favicon. Before the closing body tag
+                        (all the way at the bottom) you will find Javascript, relink those as well. Jquery remains the
+                        same. </p>
+                </div>
+                    <pre>&lt;!-- <em>THIS IS A COMMENT</em> --&gt;<br><br>&lt;link rel = "stylesheet"  href="<b>css/clean_style.css</b>"  type="text/css"&gt;<br><br>&lt;script src= "<b>Responsive-Filterable-jQuery-Portfolio-Gallery-Plugin-Elastic-Grid/js/modernizr.custom.js</b>"&gt;                                   
+</pre>
+            </li>
+            <li><!-- STEP THREE -->
+                <div id="steps-3">
+                    <h3>MODULE 1: Header & Nav </h3>
+
+                    <p> You can insert your logo as an image and/or use the &lt;h1&gt; for your name, and &lt;span&gt;
+                        for your subtitle. Below you can incorporate extra links if needed. Just make sure to comment
+                        them out by removing: &lt;!-- and --&gt;. Clean module has incorporated an extensive list of
+                        icons you can use for your navigation. You can change the icons in the Navbar section.
+                    </p>
+                </div>
+                    <pre>&lt;div class="<b>logo</b>"&gt;&lt;img src="<b>images/terraceLogo.png</b>"&gt;<br>&lt;h1&gt;<b>clean
+                        module</b> &lt;span&gt;<b>Template</b>&lt;/&gt;&lt;/h1&gt;<br><br>&lt;a href="<b>#</b>"&gt;download work&lt;/&gt;<br>&lt;span class="<b>icon-home</b>" title="<b>home</b>"&gt;
+</pre>
+            </li>
+            <li><!-- STEP FOUR -->
+                <div id="steps-4">
+                    <h3>MODULE 2: Slider </h3>
+
+                    <p>You can adjust the slider to fit your design, first start by swaping the images with yours. Our
+                        slider images have a dimension of 1600x550px. We have also incorporated text and a button within
+                        each slide by adding &lt;h1&gt; and &lt;a&gt;. If text or button is not needed simply comment it
+                        out or delete it.
+                    </p>
+                </div>
+                    <pre>&lt;li style= "background-image:<b>url(images/slider/hero_1.jpg)</b>;"&gt;<br>&lt;h1 class="banner-h1"&gt;<br>&lt;a class="<b>cta_btn</b>" href="#" &gt;<br>&lt;img src="<b>images/btn.png</b>"&gt;
+</pre>
+            </li>
+            <li><!-- STEP FIVE -->
+                <div id="steps-5">
+                    <h3>MODULE 3: Gallery </h3>
+
+                    <p> The gallery section serves as a placement holder for javascript. Once the functions are
+                        generated they search for this empty container to place their results. All of your thumbnails
+                        and large images can be swaped out in the &lt;script&gt; tag located at the end (just before
+                        &lt;/body&gt;). You can classify your projects by changing the 'tags' name.
+                    </p>
+                </div>
+                    <pre>&lt;div id="elastic_grid_gallery"&gt;<br><br>&lt;script type="text/javascript"&gt;<br>{ 'title': '<b>Project
+                        No.1</b>',<br>&nbsp;&nbsp;'thumbnail' : ['<b>images/small/1.jpg</b>',]<br>&nbsp;&nbsp;'large' : ['<b>images/large/1.jpg</b>',]<br>&nbsp;&nbsp;'tags' : ['<b>Design</b>']&nbsp;&nbsp;}
+</pre>
+            </li>
+            <li><!-- STEP SIX -->
+                <div id="steps-6">
+                    <h3>MODULE 4: About </h3>
+
+                    <p>The about section features a section called "Skills", where you can list some of the key
+                        components about youself or your business. These features are wrapped up in a box to keep the
+                        description short & sweet. Make sure to change the icons to suit your headline and paragraph
+                        description best. At the bottom of this section there is a button which you may use to link to
+                        an external website or to your resume. You can attach a file to this anchor such as a .PDF or an
+                        image.
+                    </p>
+                </div>
+                    <pre>&nbsp;&nbsp;&lt;div class="skills"&gt;<br>&lt;li class="<b>design</b>"&gt;<br>&lt;h1&gt;&lt;span class="<b>icon-view-quilt</b>" title="<b>design</b>"&gt;&lt;/span&gt;&lt;/h1&gt;<br>&nbsp;&lt;b&gt;<b>design</b>&lt;/b&gt;<br>&nbsp;&nbsp;&lt;p&gt;<b>problem-solution</b>&lt;/p&gt;<br><br>&lt;div class="resume-btn"&gt;<br>&nbsp;&lt;a href="<b>myResume.pdf</b>"&gt;<b>
+                        My Resume </b>&lt;/a&gt;&lt;/div&gt;
+</pre>
+            </li>
+            <li><!-- STEP SEVEN -->
+                <div id="steps-7">
+                    <h3>MODULE 5: Contact </h3>
+
+                    <p>In the social media section you can change add or delete items as needed (&lt;li&gt;), change
+                        icons (span class="icon") and direct your audience to your social media pages (&lt;a href="#"&gt;)
+                        by changing the URL.
+                    </p>
+                </div>
+                    <pre>&lt;li class="networks"&gt;<br>&nbsp;&nbsp;&lt;a href="<b>http://linkedin.com</b>" target="_blank"&gt;<br>&lt;span class="<b>icon-linkedin</b>" title="<b>linkedin</b>"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+</pre>
+            </li>
+
+            <li><!-- STEP EIGHT -->
+                <div id="steps-8">
+                    <h3>MODULE 6: Footer </h3>
+
+                    <p> Adjust the website URL and name. In this section you can add links like "terms of service" and
+                        "privacy" if needed.
+                    </p>
+                </div>
+                    <pre>&copy;2015<br>&lt;a href="<b>http://yourURL.com</b>"&gt;<b> Name of Website </b>&lt;/a&gt;<br>All Rights Reserved.
+</pre>
+            </li>
+            <li><!-- STEP NINE -->
+                <div id="steps-9">
+                    <h3> Class & Id </h3>
+
+                    <p>If you make changes to class or id names you will need to adjust the main CSS "clean_style". Pay
+                        close attention to our comments. We have set up this template so that all changes can be made
+                        through the main CSS, but if you are comfortable with code then you can style the elastic grid
+                        gallery to fit your needs.
+                    </p>
+                </div>
+                    <pre><em>HTML:</em> &lt;body class="<b>clean</b>"&gt;<br><em>CSS:</em><b>
+                        .clean</b> {font-family: <b>'Roboto', sans-serif</b>;}<br><br><em>HTML:</em> &lt;div id="<b>elastic_grid_gallery</b>"&gt;&lt;/div&gt;<br>&lt;Script&gt;<br>&nbsp;&nbsp;$(function(){$("<b>#elastic_grid_gallery</b>").elastic_grid({
+
+</pre>
+            </li>
+
+        </ol>
+        <!-- Closing ordered List -->
+    </div>
+    <!-- Container ENDS -->
+
+    <!-- ************************** FOOTER ************************** -->
+    <div id="download" class="wrap footer">
+
+        <a href="#">www.terrace.com</a>
+        <br><br>
+        <a class="btn" href="#">Download Template <span>minified (0.0k)</span></a>
+        <a class="btn" href="#">Download Template <span>source (0.0k)</span></a>
+
+
+    </div>
+</div>
+
+</body>
+</html>
